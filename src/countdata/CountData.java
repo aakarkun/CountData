@@ -1,4 +1,4 @@
- package countdata;
+package countdata;
 import java.util.Scanner;
 /**
  *
