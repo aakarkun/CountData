@@ -26,6 +26,7 @@ public class CountData {
         int wordCount = 0;
         boolean word = false;
         int endOfLine = sentence.length() - 1;
+        
         for (int i = 0; i < sentence.length(); i++)
         {
            if(Character.isLetter(sentence.charAt(i)) && i != endOfLine) {
